@@ -1,0 +1,4 @@
+name: Node telegram bot continius
+on:
+  pull_request:
+    branches: [master]
