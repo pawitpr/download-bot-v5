@@ -152,6 +152,7 @@ bot.sendMessage('If you notice link invailad you can see logs by using /error')
   });
   // he
    // now is work
+   // ok fine
   bot.on('message', (msg) => {
     const chatId = msg.chat.id;
    
