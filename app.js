@@ -150,7 +150,9 @@ bot.sendMessage('If you notice link invailad you can see logs by using /error')
   bot.onText(/\/tes(.+)/, (msg, match) => {
     bot.sendMessage(chatId, `If you need download then \n type /download+<url> example /download https://lh3.ggpht.com/OtJO23U6A1iYjMxP6cj4N47F0MOlI5cuOl75WBWirSNXI2kCgBZSQwfraiBnpqTW0Pg=s2000-w2000 \n and open this link to download https://${process.env.DOMAIN_NAME} \n i am downaa `);
   });
-
+  // he
+   // now is work
+   // ok fine
   bot.on('message', (msg) => {
     const chatId = msg.chat.id;
    
